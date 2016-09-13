@@ -1,0 +1,103 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: "微软雅黑", serif; 
+
+}
+
+.var{
+	width: 100%;
+	height:70px;
+	background:url(images/logo.png) 40px 10px no-repeat;
+	background-color: #333;
+	padding-left:900px;
+	position: fixed;
+}
+.var li{
+	float: left;
+	padding-right: 30px;
+	padding-top: 20px;
+}
+.var li a{
+	text-decoration:none;
+	display:block; 
+	color: white;
+	width:80px;
+}
+
+.mainbody{
+	background: #ccc;
+	padding:90px 20px 10px 20px;
+}
+.content{
+	background-color:white;
+	margin:10px 0;
+	padding:20px 20px;
+	line-height: 40px;
+}
+.content p{
+	line-height:25px;
+}
+.content h2,.content span{
+	color:#666;
+}
+
+.comtent_two ul li{
+	list-style: none;
+}
+.content_img ul li{
+	list-style: none;
+	width:180px;
+	border:1px solid #ccc;
+	text-align: center;
+	margin: 30px;
+}
+table{
+	border-collapse:collapse;
+}
+table,th,td{
+	border: 1px solid #ccc;
+
+}
+th{
+	text-align:left;
+	width:400px;
+	color: white;
+	background-color: #333;
+}
+
+.sidebar{
+	margin-top: 30px;
+
+}
+
+.sidebar form label{
+    float:left;
+    text-align:right;
+    width:400px;
+    padding-right:15px;
+}
+.sidebar form span{
+	float:left;
+	width:590px;
+	text-align:right;
+}
+
+.sidebar .submit{
+	width:100%;
+    height:40px;
+    border-radius: 10px;
+    background: #00c;
+    color: white;
+    font-size: 19px;
+    border:none;
+}
+
+.footer{
+	height: 50px;
+	background-color: #333;
+	text-align: center;
+	padding-top: 10px;
+	color: white;
+}
+
