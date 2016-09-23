@@ -1,0 +1,125 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: "微软雅黑", serif; 
+	
+}
+
+.var{
+	width: 100%;
+	height:70px;
+	background:url(images/logo.png) 40px 10px no-repeat;
+	background-color: #333;
+	padding-left:900px;
+	position: fixed;
+	z-index: 1;
+}
+.var li{
+	float: left;
+	padding-right: 30px;
+	padding-top: 20px;
+}
+.var li a{
+	text-decoration:none;
+	display:block; 
+	color: white;
+	width:80px;
+}
+
+.mainbody{
+	background: #ccc;
+	padding:90px 20px 10px 20px;
+}
+.maincontent{
+	margin-right: 420px;
+}
+.content{
+	margin-right: 400px;
+	background-color:white;
+	margin:10px 0;
+	padding:20px 20px;
+	line-height: 35px;
+	box-shadow: 2px 2px #999;
+}
+.content p{
+	line-height:25px;
+	font-size: 15px;
+	text-indent: 2em;
+}
+.content h4,.content span{
+	color:#666;
+}
+
+.comtentTwo ul li{
+	list-style: none;
+}
+.content_img{
+	overflow: hidden;
+}
+.content_img ul li{	
+	list-style: none;
+	border:1px solid #ccc;
+	text-align: center;
+	margin: 20px 10px 10px 20px;
+	float: left;
+}
+table{
+	border-collapse:collapse;
+}
+table,th,td{
+	border: 1px solid #ccc;
+
+}
+th{
+	text-align:left;
+	width:400px;
+	color: white;
+	background-color: #333;
+}
+
+.sidebar{
+	box-shadow: 2px 2px #999;
+	background-color:white;
+	margin:10px 0;
+	padding:20px 20px;
+	line-height: 30px;
+	margin-top: 30px;
+	width: 360px;
+	position: absolute;
+	top: 70px;
+	right: 20px;
+}
+
+.sidebar form label{
+    float:left;
+    text-align:right;
+    width:100px;
+    padding-right:10px;
+    font-size: 12px;
+}
+.sidebar form span{
+	float:left;
+	width:240px;
+	text-align:right;
+	font-size: 12px;
+}
+
+.sidebar .submit{
+	margin:5px 0 0 120px;
+	width:150px;
+    height:30px;
+    border-radius: 10px;
+    background: #00c;
+    color: white;
+    font-size: 15px;
+    border:none;
+}
+
+.footer{
+	height: 50px;
+	background-color: #333;
+	text-align: center;
+	padding-top: 10px;
+	color: white;
+}
+
