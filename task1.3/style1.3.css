@@ -1,0 +1,42 @@
+*{
+	margin:0px;
+	font-family: "微软雅黑", serif；
+}
+.box{
+	padding: 20px;
+	border: 1px solid #999;
+}
+.centent{
+	margin:20px;
+	background-color: #eee;
+	overflow: hidden;
+}
+.centent .box1{
+	width: 160px;
+	background-color: #fff;
+	float: left;
+	margin-left: -100%;
+}
+.centent .box1 span{
+	float: right;
+}
+.centent .box2{
+	
+	float: left;
+	width: 100%;	
+}
+.centent .box2 .box2Centent{
+	background-color: #fff;
+	margin: 0 140px 0 220px;
+}
+.centent .box3{
+	width: 80px;
+	background-color: #fff;
+	float: right;
+	margin-left: -100%;
+}
+.centent .box3 img{
+	width: 80px;
+	height: 80px;
+	margin:5px 0;
+}
