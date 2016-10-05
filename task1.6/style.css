@@ -1,0 +1,272 @@
+*{
+	padding:0;
+	margin: 0;
+	font-family: "微软雅黑";
+	/*height: 1386px;*/
+}
+#body{
+	padding:0 44px;
+	width: 892px;
+}
+#head{
+	width: 892px;
+	height: 61px;
+	border-bottom: 2px solid #938e8c;
+}
+/*头部标题*/
+#head .head_h{
+	width: 110px;
+	height: 61px;
+	background:#d45d5c;
+	float: left;
+	text-align: center;
+	color: #fff;
+}
+#head h3{
+	margin-top: 20px;
+}
+/*头部时间*/
+#head span{
+	float: right;
+	margin-top: 44px;
+	font:12px "黑体";
+	color: #d45d5c;
+}
+/*主题板块1*/
+#c1{
+	margin: 34px 0;
+	height: 540px;
+}
+/*左边整块*/
+#c1 .c1_left{
+	float: left;
+}
+/*左边大图*/
+#c1 .c1_bg{
+	width: 641px;
+	height: 301px;
+}
+/*左三的整体*/
+#c1 .c1_main{
+	width: 641px;
+	margin-top: 34px;
+}
+/*左边三个板块*/
+#c1 .c1_main h3{
+	font-size: 16px;
+	text-decoration: underline;
+}
+#c1 .c1_main p{
+	font-size: 12px;
+	color: #231815;
+	filter:alpha(opacity=70); 
+	-moz-opacity:0.7; 
+	opacity:0.7;
+	line-height: 16px;
+	padding-top:10px; 
+}
+/*what*/
+#c1 .c1_what{
+	float: left;
+	width: 230px;
+	margin-right: 16px;
+}
+#c1 .c1_what h3{
+	color: #75b86b;
+}
+/*when*/
+#c1 .c1_when{
+	float: left;
+	width: 230px;
+	margin-right: 16px;
+}
+#c1 .c1_when h3{
+	color:#d2994f; 
+}
+/*how*/
+#c1 .c1_how{
+	float: right;
+	width: 149px;
+}
+#c1 .c1_how h3{
+	color: #cc8091;
+}
+#c1 .c1_how p {
+	line-height: 20px;
+	margin-bottom: 16px;
+}
+#c1 .c1_how li{
+	font-size: 12px;
+	color: #231815;
+	filter:alpha(opacity=70); 
+	-moz-opacity:0.7; 
+	opacity:0.7;
+	line-height: 20px;
+	list-style: none;
+}
+#c1 .c1_how li span{
+	color: #cd4a48;
+	font-style: oblique;
+}
+/*右边文字排版*/
+#c1 .c1_right{
+	float: right;
+	width: 203px;
+	border-top: 2px solid #cc8091;
+	padding-top: 5px;
+}
+#c1 .c1_right .c1_right_h{
+	font-size: 18px;
+	display: inline;
+	border-bottom: 2px solid #000;
+}
+#c1 .c1_right .c1_right_h span{
+	font-size: 24px;
+}
+#c1 .c1_right .c1_right_about{
+	font-size: 12px;
+	color: #676767;
+	font-family: "楷体";
+	line-height:10px;
+	margin-top: 8px;
+}
+#c1 .c1_right .c1_right_700{
+	font-size: 116px;
+	color: #75b86b;
+	font-style: oblique;
+}
+#c1 .c1_right .c1_right_ss{
+	color: #cc8091;
+}
+#c1 .c1_right .c1_right_32{
+	font-size: 55px;
+	display: inline;
+	float: left;
+}
+#c1 .c1_right .c1_right_cs{
+	width:120px;
+	float: left;
+	margin-top: 18px;
+}
+#c1 .c1_right .c1_right_css{
+	font-size: 21px;
+}
+#c1 .c1_right .c1_right_csscss{
+	font-size: 12px;
+}
+/*主题板块2*/
+#c2 {
+	margin: 34px 0;
+	height: 600px;
+}
+/*左边*/
+#c2 .c2_left{
+	float: left;
+	width: 415px;
+}
+/*左边大标题*/
+#c2 .c2_left .c2_head{
+	border-bottom: 2px solid #000;
+	padding-bottom: 15px;
+	color: #11456b;
+	font-weight: bold;
+}
+#c2 .c2_left .c2_head .c2_headp1{
+	font-size: 42px;
+	line-height: 42px;
+	font-family: "黑体";
+}
+#c2 .c2_left .c2_head .c2_headp1 span{
+	font-size: 72px;
+	font-style: oblique;
+	color: #f5e327;
+}
+#c2 .c2_left .c2_head .c2_headp2{
+	font-size: 33px;
+}
+/*左边段落主体*/
+#c2 .c2_left .c2_main{
+	margin-top: 20px;
+}
+/*左边段落*/
+#c2 .c2_left .c2_main p{
+	font-size: 12px;
+	color: #767777;
+}
+#c2 .c2_left .c2_main .c2_main_p{
+	text-indent: 2em;
+}
+#c2 .c2_left .c2_main p span{
+	font-size: 70px;
+	color: #f5e327;
+	float: left;
+}
+/*左边图片*/
+#c2 .c2_left .c2_main img{
+	float:right;
+	margin: 15px 0 15px 15px;
+}
+/*右边主体*/
+#c2 .c2_right{
+	width:458px;
+	float: right;
+}
+/*右边大背景*/
+#c2 .c2_right .c2_bg{
+	width: 458px;
+	height: 275px;
+	background: url(../images/bg3.jpg) no-repeat;
+}
+#c2 .c2_right .c2_bg .c2_bg_shide{
+	width: 458px;
+	height: 61px;
+	background: #000;
+	filter:alpha(opacity=50); 
+	-moz-opacity:0.5; 
+	opacity:0.5;
+	position: relative;
+    top: 195px;
+}
+#c2 .c2_right .c2_bg p{
+	border-left: 3px solid #72b16a;
+	color: #fff;
+	margin-left: 40px;
+	padding:8px 0 8px 8px;
+	font-size: 26px;
+	position: relative;
+    top: 140px;
+}
+#c2 .c2_right .c2_bg p span{
+	font-size: 12px;
+	color: #72b16a;
+	font-style:oblique; 
+}
+/*右边列表*/
+#c2 .c2_right .c2_list{
+	width: 459px;
+	height: 318px;
+	background-color: #eeedd6;
+}
+#c2 .c2_right .c2_list .c2_list_red{
+	width: 260px;
+	height: 160px;
+	background-color: #d45d5c;
+	position: relative;
+	top: 95px;
+	float: left;
+	margin-right: 10px;
+
+}
+#c2 .c2_right .c2_list .c2_list_p{
+	float: left;
+	width: 180px;
+	height: 160px;
+	margin-top: 110px;
+
+}
+/*脚部*/
+#footer{
+	border-top: 2px solid #938e8c;
+	height: 61px;
+	text-align: right;
+}
