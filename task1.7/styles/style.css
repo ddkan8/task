@@ -1,0 +1,471 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: "微软雅黑" ;
+	text-decoration: none;
+}
+#body{
+	width: 1280px;
+	margin:0 auto;
+}
+/*头部*/
+#header{
+	height: 58px;
+}
+#header .logo{
+	background: url(../images/logo-nav.png) no-repeat 0px;
+	font-family: "黑体";
+	font-size: 21px;
+	color: #393a3a;
+	line-height: 58px;
+	padding-left: 44px;
+	margin-left: 58px;
+	display: inline;
+	float: left;
+}
+#header .nav{
+	list-style: none;
+	display: inline;
+	line-height: 58px;
+	float: left;
+	margin-left: 500px;
+}
+#header .nav li{
+	display: inline;
+}
+#header .nav a{
+	float: left;
+	width: 65px;
+	height: 54px;
+	margin-right: 35px;
+	text-align: center;
+	font-size: 14px;
+	color: #787b83;
+}
+#header .nav a:hover{
+	border-bottom: 4px solid #e74f4d;
+	color: #e74f4d;
+}
+#header .nav .nav_f{
+	border-bottom: 4px solid #e74f4d;
+	color: #e74f4d;
+}
+#header .login{
+	background: url(../images/login.png) no-repeat 0px;
+	padding-left: 18px;
+	float: left;
+	line-height: 58px;
+	font-size: 14px;
+	color: #e74f4d;
+}
+
+/*板块1大背景*/
+#main_start .bg{
+	background: url(../images/bg1.jpg) no-repeat;
+	background-size:1280px;
+	height: 690px;
+}
+#main_start .bg .start{
+	position: relative;
+	top: 225px;
+	left: 120px;
+}
+#main_start .bg h2{
+	font-size: 60px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+#main_start .bg p{
+	font-size: 21px;
+	color: #fff;
+}
+#main_start .bg a{
+	background: #e74f4d;
+	color:#fff;
+	font-size: 30px;
+	line-height: 64px;
+	display: block;
+	width: 332px;
+	height:64px;
+	text-align: center;
+	margin-top: 68px;
+}
+/*板块1四个图标*/
+#main_start .img_four img{
+	margin: 45px 138px;
+}
+#main_start .img_four p{
+	font-family: "黑体";
+	font-size: 14px;
+	color: #767777;
+	float: left;
+	width: 160px;
+	height: 50px;
+	padding: 0 78px;
+	text-align: center;
+	border-right: 1px solid #767777;
+}
+#main_start .img_four .img_four_f{
+	border-right: none;
+}
+/*城市板块*/
+#main_city .city_top{
+	background-color: #edecec;
+	height: 360px;
+	margin-top: 115px;
+	text-align: center;
+}
+#main_city .city_top img{
+	margin:90px 0 50px 0;
+}
+#main_city .city_top p{
+	font-family: "黑体";
+	font-size: 54px;
+	color: #a1a1a1;
+}
+/*搜索城市区域*/
+#main_city .city_select{
+	background: url(../images/bg-map.jpg) no-repeat;
+	background-size:1280px;
+	height: 288px;
+	padding-top: 52px;
+	text-align: center;
+}
+#main_city .city_select .select_head{
+	font-size: 21px;
+	color: #fff;
+}
+#main_city .city_select hr{
+	margin: 12px auto 20px auto;
+	width: 32px;
+}
+#main_city .city_select .select_tip{
+	color: #fff;
+	font-size: 12px;
+	margin-bottom: 50px;
+}
+/*选择框*/
+#main_city .city_select form select{
+	width: 235px;
+	height: 38px;
+	margin:0 15px;
+}
+/*搜索按钮*/
+#main_city .city_select form .select_btn{
+	background-color: #be4e48;
+	color: #fff;
+	border: none;
+	font-size: 14px;
+	letter-spacing:24px;
+	width: 235px;
+	height: 38px;
+	margin:0 15px;
+}
+
+#main_city .city_active{
+	height: 605px;
+	background-color: #f7f7f7;
+}
+#main_city .city_active .active_box{
+	float: left;
+	margin-top: 100px;
+	margin-right: 35px;
+	text-align: center;
+}
+#main_city .city_active .active_box_1{
+	margin-left: 150px;
+}
+#main_city .city_active  .active_box .active_pic{
+	width: 200px;
+	height: 310px;
+	background-color: #fff;
+	padding: 14px 10px;
+}
+#main_city .city_active .active_box p{
+	font-size: 16px;
+	margin: 5px 0;
+}
+#main_city .city_active .active_box span{
+	font-size: 14px;
+	color: #a1a1a1;
+}
+
+/*板块三*/
+#main_us{
+	height: 1082px;
+}
+#main_us .us_bg{
+	background: url(../images/bg2.jpg) no-repeat;
+	width: 850px;
+	height:432px;
+	text-align: center;
+	padding-top: 130px;
+	float: left;
+	position: relative;
+}
+#main_us .us_bg p{
+	color: #fff;
+}
+#main_us .us_bg .us_bg_p1{
+	font-size: 50px;
+}
+#main_us .us_bg .us_bg_p2{
+	font-size: 158px;
+	line-height: 120px;
+	margin-bottom: 25px;
+}
+#main_us .us_bg .us_bg_p3{
+	font-size: 21px;
+	margin-bottom: 18px;
+}
+#main_us .us_bg .us_bg_p4{
+	font-size: 21px;
+}
+#main_us .us_bg::after{
+	content:'';
+    border-width: 30px;
+    border-style: solid;
+    border-color: transparent #fff transparent transparent;
+    position: absolute;
+    right:0px;
+	top: 280px;
+}
+/*新世界更多求详情板块*/
+#main_us .uc_desc{
+	float: right;
+	text-align:center;
+	width: 290px;
+	height: 400px;
+	padding: 162px 70px 0 70px;
+}
+#main_us .uc_desc .desc_head{
+	font-size: 21px;
+	margin-bottom: 32px;
+}
+#main_us .uc_desc .desc_head span{
+	color: #e25c60;
+}
+#main_us .uc_desc .desc_ca{
+	font-family: "宋体";
+	font-size: 12px;
+	color: #aaaaaa;
+	line-height: 30px;
+	text-align: left;
+}
+#main_us .uc_desc a{
+	display: block;
+	margin: 50px auto 26px auto;
+	width: 106px;
+	height: 32px;
+	color: #e25c60;
+	border: 1px solid #e25c60;
+}
+#main_us .uc_desc input{
+	margin:0 7px 0 7px;
+}
+/*查看更多1板块*/
+#main_us .desc_abt1{
+	width: 426px;
+	height: 350px;
+	float: left;
+	text-align: center;
+	background-color: #e74f4d;
+	padding-top: 170px;
+}
+#main_us .desc_abt1 .desc_abt1_p{
+	font-size: 21px;
+	color: #fff;
+	font-family: "黑体";
+}
+#main_us .desc_abt1 hr{
+	width: 30px;
+	margin: 25px auto;
+}
+#main_us .desc_abt1 a{
+	display: block;
+	width: 168px;
+	height: 45px;
+	line-height: 45px;
+	border: 1px solid #fff;
+	color: #fff;
+	margin: 0 auto;
+}
+/*查看更多2板块*/
+#main_us .desc_abt2{
+	width: 426px;
+	height: 350px;
+	float: left;
+	text-align: center;
+	background-color: #fff;
+	padding-top: 170px;
+}
+#main_us .desc_abt2 .desc_abt2_p{
+	font-size: 21px;
+	color: #323333;
+	font-family: "黑体";
+}
+#main_us .desc_abt2 hr{
+	width: 30px;
+	margin: 25px auto;
+}
+#main_us .desc_abt2 a{
+	display: block;
+	width: 168px;
+	height: 45px;
+	line-height: 45px;
+	border: 1px solid #e74f4d;
+	color: #e74f4d;
+	margin: 0 auto;
+}
+/*查看更多2板块右边背景*/
+#main_us .desc_bg{
+	float: left;
+	background: url(../images/bg3.jpg) no-repeat;
+	background-size: 428px;
+	height:520px;
+	width: 428px;
+	position: relative;
+}
+#main_us .desc_bg::after{
+	content:'';
+    border-width: 30px;
+    border-style: solid;
+    border-color: transparent transparent transparent #fff;
+    position: absolute;
+    left:0px;
+    top: 210px;
+}
+/*成为志愿者*/
+#content{
+	height: 465px;
+	text-align: center;
+	padding:120px 140px 165px 140px; 
+}
+/*标题*/
+#content .content_head{
+	font-family: "黑体";
+	font-size: 21px;
+	color: #323333;
+}
+#content hr{
+	width: 30px;
+	text-align: center;
+	margin: 10px auto 16px auto;
+}
+#content .content_head_p{
+	font-size: 12px;
+	color: #aaaaaa;
+	margin-bottom: 107px;
+}
+/*协议等等*/
+#content .content_tips{
+	height: 295px;
+	width: 285px;
+	text-align: left;
+	float: left;
+}
+#content .content_tips .content_tips_head{
+	font-family: "黑体";
+	font-size: 14px;
+	color: #323333;
+	margin-bottom: 30px;
+}
+#content .content_tips .content_tips_p{
+	font-family: "宋体";
+	font-size: 12px;
+	color: #aaaaaa;
+	margin-bottom: 55px;
+}
+#content .content_tips a{
+	font-family: "宋体";
+	font-size: 12px;
+	color: #aaaaaa;
+	float: right;
+	margin-top: -55px;
+	padding-left: 15px;
+	background: url(../images/btn-more.png) no-repeat 0px ;
+}
+#content form input{
+	background: #ededee;
+	border: none;
+}
+#content form{
+	float: left;
+	width: 640px;
+	margin-left: 60px;
+}
+#content form .input_1{
+	width: 305px;
+	height: 44px;
+	margin-bottom: 16px;
+	margin-right: 20px;
+}
+#content form .input_2{
+	width: 305px;
+	height: 44px;
+	margin-bottom: 16px;
+}
+#content form .input_3{
+	height: 120px;
+	width: 640px;
+	margin-bottom: 16px;
+}
+#content form .input_4{
+	height: 38px;
+	width: 640px;
+}
+/*底部邮箱*/
+#footer .footer_mail{
+	height: 198px;
+	background: #32353e;
+	text-align: center;
+	padding: 92px 0 70px 0;
+}
+#footer .footer_mail .footer_mail_p1{
+	font-size: 21px;
+	font-family: "黑体";
+	color: #fff;
+	margin-bottom: 12px;
+}
+#footer .footer_mail .footer_mail_p2{
+	font-family: "宋体";
+	font-size: 12px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+#footer .footer_mail .footer_input1{
+	width: 430px;
+	height: 40px;
+}
+#footer .footer_mail .footer_input2{
+	width: 80px;
+	height: 43px;
+	border: none;
+	color: #fff;
+	letter-spacing:8px;
+	background-color: #666;
+}
+#footer .footer_mail ul{
+	list-style: none;
+	margin-top: 38px;
+}
+#footer .footer_mail li{
+	display: inline;
+	margin: 0 15px 0 15px;
+}
+#footer .footer_foot{
+	height: 56px;
+	background-color: #2f3038;
+	line-height: 56px;
+}
+footer .footer_foot span{
+	margin-left: 100px;
+	color: #fff;
+	font-size: 12px;
+}
+footer .footer_foot a{
+	float: right;
+	margin-right: 50px;
+	color: #fff;
+	font-size: 12px;
+}
