@@ -1,0 +1,102 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*头部*/
+#header{
+	width: 1280px;
+	height: 55px;
+	background-color: #228ac0;
+	margin: 0 auto;
+}
+#header .logo{
+
+}
+#header .search{
+	float: right;
+	margin-right: 94px;
+}
+#header .login{
+	color: #fff;
+	text-decoration: none;
+	line-height: 55px;
+	margin-left: 38px;
+}
+/*下面整体部分*/
+#section{
+	width: 1280px;
+	margin: 0 auto;
+}
+/*侧边*/
+#sidebar{
+	float: left;
+	width: 260px;
+	background-color: #333;
+}
+/*用户头像*/
+#sidebar .user_head{
+	height: 94px;
+}
+#sidebar .user_head_pic{
+
+}
+#sidebar .user_name{
+	display: inline-block;
+	color: #fff;
+	line-height: 94px;
+	position: relative;
+	left: 120px;
+}
+/*收藏，粉丝*/
+#sidebar .info{
+	height: 52px;
+	text-align: center;
+}
+#sidebar .info .info_num{
+	text-decoration: none;
+	color: #ccc;
+	display: inline-block;
+	text-align: center;
+	padding:0 30px 0 30px;
+}
+#sidebar .info .collection{
+	border-right: 1px solid #ccc;
+}
+/*分类项目*/
+#sidebar li{
+	list-style: none;	
+}
+#sidebar .item_list li:hover{
+	background-color: #666;
+}
+#sidebar .item_list a{
+	padding-left: 70px;
+	line-height: 50px;
+	display: block;
+	text-decoration: none;
+	color: #ccc;
+}
+#sidebar .item_forms{
+	background-color: #666;
+}
+/*个人报表*/
+#sidebar .item_list .forms_list a{
+	padding-left: 104px;
+	line-height: 25px;
+	font-size: 12px;
+}
+#sidebar .item_list .forms_list .forms_two_list a{
+	padding-left: 115px;
+	line-height: 20px;
+}
+/*主体部分*/
+#content{
+	background-color: #ccc;
+}
+#content .content_nav{
+	height: 30px;
+	background-color: #fff;
+}
+#content .content_nav .content_nav_list{
+
+}
