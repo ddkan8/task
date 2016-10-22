@@ -2,6 +2,7 @@
 	margin: 0px;
 	padding: 0px;
 }
+
 /*头部*/
 #header{
 	width: 1280px;
@@ -10,7 +11,7 @@
 	margin: 0 auto;
 }
 #header .logo{
-
+	
 }
 #header .search{
 	float: right;
@@ -22,17 +23,20 @@
 	line-height: 55px;
 	margin-left: 38px;
 }
+
 /*下面整体部分*/
 #section{
 	width: 1280px;
 	margin: 0 auto;
 }
+
 /*侧边*/
 #sidebar{
 	float: left;
 	width: 260px;
 	background-color: #333;
 }
+
 /*用户头像*/
 #sidebar .user_head{
 	height: 94px;
@@ -47,6 +51,7 @@
 	position: relative;
 	left: 120px;
 }
+
 /*收藏，粉丝*/
 #sidebar .info{
 	height: 52px;
@@ -62,6 +67,7 @@
 #sidebar .info .collection{
 	border-right: 1px solid #ccc;
 }
+
 /*分类项目*/
 #sidebar li{
 	list-style: none;	
@@ -79,6 +85,7 @@
 #sidebar .item_forms{
 	background-color: #666;
 }
+
 /*个人报表*/
 #sidebar .item_list .forms_list a{
 	padding-left: 104px;
@@ -89,14 +96,312 @@
 	padding-left: 115px;
 	line-height: 20px;
 }
+
 /*主体部分*/
 #content{
 	background-color: #ccc;
+	float: left;
+	width: 1020px;
 }
+
+/*面包屑导航栏*/
 #content .content_nav{
 	height: 30px;
 	background-color: #fff;
 }
 #content .content_nav .content_nav_list{
+	list-style: none;
+	padding-left: 30px;
+	overflow: auto;
+}
+#content .content_nav .content_nav_list li{
+	float: left;
+	margin-right:  10px;
+	line-height: 30px;
+}
+#content .content_nav .content_nav_list li a{
+	text-decoration: none;
+	color: #999;
+}
+#content .content_nav .content_nav_list li:after{
+	content: "/";
+	margin-left: 10px;
+	color: #999;
+}
+#content .content_nav .content_nav_list .content_nav_list_last{
+	color: #228ac0;
+}
+#content .content_nav .content_nav_list li:last-child:after{
+	content: "";
+}
 
+/*面包屑导航下面部分*/
+#container{
+	width: 890px;
+	margin:20px auto 0 auto;
+}
+
+/*查询项*/
+#container .query{
+	width: 100%;
+	height: 67px;
+	background-color: #fff;
+	padding-top: 18px;
+	margin-bottom: 12px;
+}
+#container .query .query_selcet{
+	width: 122px;
+	margin:0 36px 0 30px;
+	float: left;
+}
+#container .query span{
+
+}
+#container .query selcet{
+	
+}
+#container .query .query_change{
+	float: left;
+	width:190px;
+	margin-right: 35px;
+}
+#container .query .query_change span{
+
+}
+#container .query .query_change selcet{
+
+}
+#container .query .query_change img{
+
+}
+#container .query .query_selcet_four{
+	width: 292px;
+	float: left;
+	margin-right: 32px;
+}
+#container .query .query_search{
+
+}
+
+/*历史查询*/
+#container .history{
+	height: 65px;
+	margin-bottom: 20px;
+	overflow: none;
+}
+#container .history .history_pre_n{
+	width: 30px;
+	margin-right: 5px;
+	background-color: #fff;
+	height: 65px;
+	text-align: center;
+	line-height: 65px;
+	font-size: 30px;
+	float: left;
+}
+#container .history .history_list{
+	list-style: none;
+}
+#container .history .history_list li{
+	float: left;
+	width: 110px;
+	height: 65px;
+	margin-right: 5px;
+	text-align: center;
+	background-color: #fff;
+}
+#container .history .history_query{
+	width: 130px;
+	height: 65px;
+	background-color: #fff;
+	float: left;
+}
+
+/*月份统计*/
+#container .count{
+	height: 94px;
+}
+#container .count .count_box{
+	float: left;
+	width: 198px;
+	background-color: #fff;
+	margin-right: 30px;
+	height: 70px;
+	overflow: none;
+}
+#container .count .count_green{
+	border-left: 2px solid green;
+}
+#container .count .count_blue{
+	border-left: 2px solid blue;
+}
+#container .count .count_red{
+	border-left: 2px solid red;
+}
+#container .count .count_yellow{
+	margin-right:0;
+	border-left: 2px solid yellow;
+}
+#container .count .count_num{
+	line-height: 35px;
+	display: inline-block;
+}
+#container .count .count_box .count_in_box{
+	height: 45px;
+	width: 60px;
+	float: right;
+	margin:11px 16px 0 0;
+}
+/*月份统计里面的小色块*/
+#container .count .count_box .count_green_box{
+	background-color: green;
+}
+#container .count .count_box .count_blue_box{
+	background-color: blue;
+}
+#container .count .count_box .count_red_box{
+	background-color: red;
+}
+#container .count .count_box .count_yellow_box{
+	background-color: yellow;
+}
+/*第一组项目*/
+#container .object{
+	overflow: none;
+}
+/*左边*/
+#container .object .left{
+	float: left;
+	width: 528px;
+	height: 358px;
+	margin-right: 10px;
+	background-color: #fff;
+	border: 1px solid #999;
+}
+#container .object .left .left_head,
+#container .object .right .right_head,
+#container .content_button .calendar .calendar_head,
+#container .content_button .billboard .billboard_head{
+	line-height: 40px;
+	padding-left: 21px;
+	background-color: #ccc;
+}
+#container .object .left ul{
+	list-style: none;
+	overflow: auto;
+	position: relative;
+	top: 15px;
+	left: 18px;
+}
+#container .object .left ul li{
+	display: inline-block;
+	width: 84px;
+	line-height: 25px;
+	text-align: center;
+	background-color: #999;
+	z-index: 99;
+}
+#container .object .left ul .object_one{
+	background-color: #fff;
+	border: 1px solid #999;
+	border-bottom: 0px;
+
+}
+#container .object .left .table_box{
+	width: 490px;
+	height: 250px;
+	border: 1px solid #999;
+	margin: 14px auto 26px auto;
+	overflow: auto;
+	z-index: 0;
+}
+#container .object .left table{
+	margin: 30px 40px 0 30px;
+	border-collapse: collapse;
+    border-spacing: 0;
+}
+#container .object .left table td{
+	border: 1px solid #999;
+	font-size: 12px;
+	height: 29px;
+	width: 100px;
+	text-align: center;
+}
+/*右边*/
+#container .object .right{
+	float: right;
+	width: 348px;
+	height: 358px;
+	background-color: #fff;
+	border: 1px solid #999;
+	overflow: auto;
+}
+#container .object .right .right_one{
+	line-height: 20px;
+	margin: 16px 38px 0 40px;
+	padding:0 0 10px 10px;
+	border-bottom: 1px solid #aaa;
+}
+#container .object .right .right_two{
+	line-height: 20px;
+	margin: 0 0 0 40px;
+	padding:0 50px 10px 10px;
+	float: left;
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+}
+#container .object .right .right_three{
+	line-height: 20px;
+	overflow: auto;
+	margin: 0 0 0 40px;
+	padding:0 0 10px 15px;
+	border-bottom: 1px solid #aaa;
+}
+#container .object .right .right_four{
+	line-height: 20px;
+	height: 145px;
+	margin: 16px 38px 0 40px;
+	padding:0 0 10px 10px;
+	border-bottom: 1px solid #aaa;
+}
+#container .object .right .checkbox{
+	margin: 10px 0 0 40px;
+}
+#container .object .right .search{
+	float: right;
+	margin:5px 38px 0 0;
+}
+/*日历*/
+#container .content_button .calendar{
+	width: 350px;
+	height: 355px;
+	background-color: #fff;
+	float: left;
+	margin-right: 10px;
+	border: 1px solid #999;
+	margin-top: 10px;
+}
+#container .content_button .calendar table{
+	border-collapse: collapse;
+	margin:10px 20px 0 20px;
+}
+#container .content_button .calendar table th{
+	border-top: 1px solid blue;
+	border-bottom: 1px solid #aaa;
+	height: 40px;
+	width: 42px;
+}
+#container .content_button .calendar table td{
+	height: 42px;
+	width: 45px;
+	text-align: center;
+	font-size: 12px;
+}
+#container .content_button .billboard{
+	width: 526px;
+	height: 355px;
+	float: right;
+	background-color: #fff;
+	border: 1px solid #999;
+	margin-top: 10px;
 }
